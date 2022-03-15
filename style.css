@@ -49,4 +49,11 @@ footer {
    .emailme {
      left: 80%
    }
+   html {
+    background: url(assets/img/rainyday.gif) no-repeat right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   }
  }
