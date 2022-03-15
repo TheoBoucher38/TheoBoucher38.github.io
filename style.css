@@ -38,3 +38,15 @@ footer {
   -o-background-size: cover;
   background-size: cover;
  }
+
+@media screen and (max-width:380px) {
+   .center-div {
+    left: 20%;
+   }
+   .linkedin {
+     left: 50%;
+   }
+   .emailme {
+     left: 80%
+   }
+ }
