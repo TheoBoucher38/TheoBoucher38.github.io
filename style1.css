@@ -1,0 +1,70 @@
+.center-div {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.linkedin {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: large;
+  color: white;
+  text-align: center;
+}
+
+.emailme {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 120px;
+}
+html {
+  background: url(assets/img/rainyday.gif) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.hid {
+  margin-top: 750px;
+  margin-left: 100px;
+}
+.hid:hover, :visited {
+  color: black;
+}
+
+
+@media screen and (max-width: 380px) {
+  .center-div {
+    left: 20%;
+  }
+  .linkedin {
+    left: 50%;
+  }
+  .emailme {
+    left: 80%;
+  }
+  html {
+    background: url(assets/img/rainyday.gif) no-repeat right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
